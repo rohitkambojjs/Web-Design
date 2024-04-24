@@ -1,0 +1,253 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100%;
+  width: 100%;
+  background-color: rgb(28, 45, 58);
+}
+
+nav{
+  height: 100px;
+  width: 100%;
+  color: white;
+  background-color: rgb(28, 45, 58);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-logo{
+  font-size: 30px;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 25px;
+  text-transform: uppercase;
+}
+
+.nav-logo span{
+  color: rgb(15, 228, 97);
+}
+
+#nav-ai{
+  color: white;
+  font-size: 30px;
+}
+
+.right-nav{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding-right: 100px;
+}
+
+.right-nav ul {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 100px;
+  list-style: none;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.right-nav li:hover{
+  color: rgb(15, 228, 97);
+}
+
+.right-nav button{
+  height: 50px;
+  width: 200px;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  /* padding: 10px 50px; */
+  border-radius: 50px;
+  border: none;
+  color: white;
+  background-color: rgb(15, 228, 97);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.backdround-img{
+  background-image: url("background.jpeg");
+  width: 100%;
+  height: 70vh;
+  padding: 80px;
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+
+.backdround-img h1{
+  font-size: 45px;
+  text-transform: uppercase;
+}
+
+.backdround-img h5{
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.backdround-img p{
+  margin-top: 20px;
+}
+
+.backdround-img button{
+  height: 45px;
+  width: 180px;
+  font-size: 17px;
+  font-weight: 600;
+  text-transform: uppercase;
+  /* padding: 10px 50px; */
+  margin: 50px 0;
+  border-radius: 50px;
+  border: none;
+  color: white;
+  background-color: rgb(15, 228, 97);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.service-box{
+  margin: 100px 0 100px 100px;
+  color: white;
+  background-color: rgb(45, 75, 95);
+  height: 25vw;
+  width: 33vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.service-box h1{
+  font-size: 70px;
+}
+
+.service-box span{
+  color: rgb(15, 228, 97);
+}
+
+.service-box i{
+  font-size: 70px;
+  font-weight: 900;
+  color: rgb(15, 228, 97);;
+}
+
+
+.Service-image{
+  width: 72%;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#Copilot{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#OpenAI{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#Services{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly; 
+}
+
+.Services ul{
+  color: white;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+
+.Services li{
+  margin: 50px;
+  list-style: none;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+}
+
+.Services i{
+  color: rgb(15, 228, 97);
+  margin: 5px 10px;
+  font-size: 20px;
+}
+
+
+#Price{
+  color: white;
+  margin: 0 50px 50px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#Price h1{
+  font-size: 40px;
+}
+
+.li i{
+  color: blue;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+#Price ol{
+  display: flex;
+  align-items: start;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+.li{
+  border: 2px solid black;
+  margin: 30px 50px;
+  padding: 30px;
+  width: 23vw;
+  /* height: 25vw; */
+  min-height: 25vw;
+}
+
+#Price i:hover{
+  color: black;
+}
+
+.li:hover{
+  background-color: blue;
+  color: white;
+}
+
+.li h1{
+  margin-bottom: 10px;
+}
+
+.li li{
+  margin-bottom: 7px;
+}
+
+.li ul{
+  padding: 0 25px;
+}
